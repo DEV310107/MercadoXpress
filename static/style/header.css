@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Karma:wght@300;400;500;600;700&family=Manrope:wght@200..800&display=swap');
+
+    body{
+        background-color: #535353;
+    }
+
+    .header {
+        font-size: 17px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between; 
+    }
+
+    .header {
+        background-color: #000000;
+        padding: 10px 20px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1000;
+    }
+
+
+    a {
+        font-family: "Manrope", sans-serif;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+    }
+    .logo {
+        width: 70px;
+        height: 70px;
+    }
+
+    .meu_carrinho {
+        width: 40px;
+        height: 40px;
+    }
+
+   .search {
+        background-color: #535353;
+        border-color: #535353;
+        color: white;
+        border-radius: 10px;
+        width: 180px;
+        height: 35px;
+   }
