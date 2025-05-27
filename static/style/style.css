@@ -31,7 +31,52 @@
           z-index: 1000;
     }
 
-    
-   
+
+     .conjunto {
+          display: grid;
+          grid-template-columns: repeat(3,1fr); 
+          gap: 50px;
+          padding: 50px 50px;
+     }
+
+     .conjunto div {
+          background-color: aliceblue;
+          border-radius: 18px;
+          padding: 5px;
+          text-align: center;
+          box-shadow: 0 0 6px #000000;
+          width: 101%;
+          height: 400px;
+          margin: 0 auto;
+     }
+
+     .conjunto img {
+          width: 60%;
+          height: auto;
+          
+     }
 
 
+
+
+
+.conj img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    margin-bottom: 6px;
+}
+
+@media (max-width: 768px) {
+    .conj {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 10px 5px;
+    }
+}
+
+@media (max-width: 480px) {
+    .conj {
+        grid-template-columns: 1fr;
+        padding: 10px 5px;
+    }
+}
